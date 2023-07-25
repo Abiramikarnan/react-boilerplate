@@ -1,0 +1,19 @@
+@import "/src/styles/variables.scss";
+.offline {
+  align-items: center;
+  background-color: $light-black;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+
+  .text {
+    background-color: $white;
+    border-radius: 8px;
+    color: $black;
+    font-size: 28px;
+    padding: 20px 30px;
+  }
+}
